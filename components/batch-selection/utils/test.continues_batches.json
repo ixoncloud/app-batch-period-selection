@@ -1,0 +1,4050 @@
+[
+  {
+    "time": 1647932999956,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647855090468,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647521254248,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647521244394,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "MANUAL COOKING"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "MANUAL COOKING"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "MANUAL COOKING"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647521105634,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647521089882,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test water en verwar"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647509711708,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647509693456,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test water en verwar"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647509677619,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647509612315,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test water en verwar"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "TEST "
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "TEST"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647507868053,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647507857621,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Bechamel saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test5"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test5"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647507842379,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647507838773,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Bechamel saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test5"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test5"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647507807455,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647507652045,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Bechamel saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "batch 4"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "id 4"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647507446077,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647506854694,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Spaghetti saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test batch 3"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test id 3"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647506698044,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647506401319,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Bechamel saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test batch 2"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test id 2"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647506319029,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647505355631,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": true
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.Programmanaam",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "UDqeKde4tKfE"
+              },
+              "ref": "aal"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "gs7RRLzRjBwL",
+              "variableId": 9,
+              "name": "Programma naam",
+              "address": "25.90",
+              "slug": "programma-naam",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "gs7RRLzRjBwL"
+              },
+              "publicId": "UDqeKde4tKfE",
+              "tagId": 2,
+              "name": "Programma naam",
+              "slug": "Programmanaam",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "Spaghetti saus"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.batch",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "PmnmYRTNaTZw"
+              },
+              "ref": "aam"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "UPH8Fgs8reOl",
+              "variableId": 10,
+              "name": "Batch",
+              "address": "25.112",
+              "slug": "batch",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "UPH8Fgs8reOl"
+              },
+              "publicId": "PmnmYRTNaTZw",
+              "tagId": 3,
+              "name": "Batch",
+              "slug": "batch",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test batch 1"
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.id",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "hKSGtbgC3GNc"
+              },
+              "ref": "aan"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "qRDk5YcROjSV",
+              "variableId": 11,
+              "name": "ID",
+              "address": "25.134",
+              "slug": "id",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 20,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "qRDk5YcROjSV"
+              },
+              "publicId": "hKSGtbgC3GNc",
+              "tagId": 4,
+              "name": "ID",
+              "slug": "id",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test id 1"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647504919719,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:databron.tag.start",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:page-builder.6rEHEc3qJgrR.q0",
+              "_timeStamp": 3619.399999976158,
+              "tag": {
+                "publicId": "l36Jub0rfoaX"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "BzrsDKcv8Zm0",
+              "variableId": 2,
+              "name": "Start",
+              "address": "25.0.0",
+              "slug": "start",
+              "type": "bool",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true,
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              }
+            },
+            "tag": {
+              "agent": {
+                "publicId": "jckIWs6j5QlY",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "jbye09WY998S",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "BzrsDKcv8Zm0"
+              },
+              "publicId": "l36Jub0rfoaX",
+              "tagId": 11,
+              "name": "Start",
+              "slug": "start",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": false
+        }
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      },
+      {
+        "value": null
+      }
+    ]
+  }
+]

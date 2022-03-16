@@ -1,0 +1,1889 @@
+[
+  {
+    "time": 1647411116611,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647411115151,
+    "metrics": [
+      {
+        "value": null
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.act-file-name-data",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "p25huC4wDOME"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "c0xy7mpvXyeH",
+              "variableId": 13,
+              "name": "ActFileName.Data",
+              "address": "ns=2;i=20081",
+              "slug": "act-file-name-data",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 40,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "c0xy7mpvXyeH"
+              },
+              "publicId": "p25huC4wDOME",
+              "tagId": 14,
+              "name": "ActFileName.Data",
+              "slug": "act-file-name-data",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647411115150,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 1
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647358330837,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647358329350,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 1
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.act-file-name-data",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "p25huC4wDOME"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "c0xy7mpvXyeH",
+              "variableId": 13,
+              "name": "ActFileName.Data",
+              "address": "ns=2;i=20081",
+              "slug": "act-file-name-data",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 40,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "c0xy7mpvXyeH"
+              },
+              "publicId": "p25huC4wDOME",
+              "tagId": 14,
+              "name": "ActFileName.Data",
+              "slug": "act-file-name-data",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "t2"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647331601503,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647331600007,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 1
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.act-file-name-data",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "p25huC4wDOME"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "c0xy7mpvXyeH",
+              "variableId": 13,
+              "name": "ActFileName.Data",
+              "address": "ns=2;i=20081",
+              "slug": "act-file-name-data",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 40,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "c0xy7mpvXyeH"
+              },
+              "publicId": "p25huC4wDOME",
+              "tagId": 14,
+              "name": "ActFileName.Data",
+              "slug": "act-file-name-data",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647331555362,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647328444002,
+    "metrics": [
+      {
+        "value": null
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.act-file-name-data",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "p25huC4wDOME"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "c0xy7mpvXyeH",
+              "variableId": 13,
+              "name": "ActFileName.Data",
+              "address": "ns=2;i=20081",
+              "slug": "act-file-name-data",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 40,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "c0xy7mpvXyeH"
+              },
+              "publicId": "p25huC4wDOME",
+              "tagId": 14,
+              "name": "ActFileName.Data",
+              "slug": "act-file-name-data",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647328444001,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647328243846,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.act-file-name-data",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "p25huC4wDOME"
+              },
+              "ref": "aak"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "c0xy7mpvXyeH",
+              "variableId": 13,
+              "name": "ActFileName.Data",
+              "address": "ns=2;i=20081",
+              "slug": "act-file-name-data",
+              "type": "str",
+              "signed": null,
+              "width": null,
+              "factor": null,
+              "unit": null,
+              "maxStringLength": 40,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "c0xy7mpvXyeH"
+              },
+              "publicId": "p25huC4wDOME",
+              "tagId": 14,
+              "name": "ActFileName.Data",
+              "slug": "act-file-name-data",
+              "aggregators": [],
+              "logEvent": "trigger",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": "test"
+        }
+      }
+    ]
+  },
+  {
+    "time": 1647328037374,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647327981308,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647326237313,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647326235802,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 1
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647326209668,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647326139721,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647325912728,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1647325742840,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1646374397162,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  },
+  {
+    "time": 1646290294905,
+    "metrics": [
+      {
+        "value": {
+          "locale": "nl-NL",
+          "queryRef": {
+            "query": {
+              "selector": "Agent#selected:data-source.tag.toolcat-file-interface-tc-load-bussy",
+              "offset": 0,
+              "limit": 5000,
+              "_clientRef": "yot:ldc:board.M07m4kfJrMY0.q0",
+              "_timeStamp": 10396.5,
+              "tag": {
+                "publicId": "LA3RNBIP87mc"
+              },
+              "ref": "aaj"
+            },
+            "variable": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "publicId": "XLWXa4he6AbK",
+              "variableId": 11,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "address": "ns=2;i=20090",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "type": "int",
+              "signed": true,
+              "width": "32",
+              "factor": null,
+              "unit": null,
+              "maxStringLength": null,
+              "forAlarming": true,
+              "forLogging": true,
+              "internalUse": false,
+              "updateable": true
+            },
+            "tag": {
+              "agent": {
+                "publicId": "5l7Gp3EQE5D5",
+                "reference": {
+                  "name": "AgentLike"
+                }
+              },
+              "source": {
+                "publicId": "R190Xy6DvFpZ",
+                "reference": {
+                  "name": "AgentDataSource"
+                }
+              },
+              "variable": {
+                "publicId": "XLWXa4he6AbK"
+              },
+              "publicId": "LA3RNBIP87mc",
+              "tagId": 12,
+              "name": "ToolcatFileInterface.TC_LoadBussy",
+              "slug": "toolcat-file-interface-tc-load-bussy",
+              "aggregators": [],
+              "logEvent": "change",
+              "loggingInterval": "72s"
+            }
+          },
+          "rawValue": 0
+        }
+      },
+      {
+        "value": null
+      }
+    ]
+  }
+]
