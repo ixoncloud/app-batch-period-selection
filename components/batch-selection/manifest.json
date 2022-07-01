@@ -1,0 +1,100 @@
+{
+  "main": "ixon-se-batch-selection.min.js",
+  "version": "103",
+  "apiApplication": "KIPhb1ti0JL1",
+  "sheetSettings": {
+    "defaultCols": 6,
+    "defaultRows": 6,
+    "minCols": 3,
+    "minRows": 3
+  },
+  "inputs": [
+    {
+      "key": "header",
+      "type": "Group",
+      "label": "Info",
+      "children": [
+        {
+          "key": "title",
+          "type": "String",
+          "label": "Title",
+          "placeholder": "Leave empty for no title"
+        },
+        {
+          "key": "subtitle",
+          "type": "String",
+          "label": "Subtitle",
+          "placeholder": "Leave empty for no subtitle"
+        }
+      ]
+    },
+    {
+      "key": "batchTrigger",
+      "type": "Group",
+      "label": "Input",
+      "summary": {
+        "label": "Batch Trigger"
+      },
+      "children": [
+        {
+          "key": "metric",
+          "type": "RawMetric",
+          "label": "Metric",
+          "placeholder": "Enter the metric to display",
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "batchStart",
+      "type": "String",
+      "label": "Batch Start Value",
+      "itemType": {
+        "key": "value",
+        "label": "Value",
+        "required": true,
+        "type": "String"
+      }
+    },
+    {
+      "key": "batchEnd",
+      "type": "String",
+      "label": "Batch End Value",
+      "itemType": {
+        "key": "value",
+        "label": "Value",
+        "required": true,
+        "type": "String"
+      }
+    },
+    {
+      "key": "metrics",
+      "type": "List",
+      "label": "Columns",
+      "itemType": {
+        "key": "column",
+        "type": "Group",
+        "label": "Column",
+        "summary": {
+          "label": "{{heading}}"
+        },
+        "children": [
+          {
+            "key": "heading",
+            "type": "String",
+            "label": "Heading",
+            "placeholder": "Enter heading",
+            "required": true
+          },
+          {
+            "key": "metric",
+            "type": "RawMetric",
+            "label": "Metric",
+            "placeholder": "Enter the metric to display",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
