@@ -494,4 +494,20 @@ describe("Test irregular batches", () => {
       },
     ]);
   });
+
+  test("FIX BUG when there are no columns defined checking outside of index", () => {
+    const mock = [
+      { time: 1663319378442, metrics: [0] },
+      { time: 1663319330342, metrics: [1] },
+    ];
+
+    const metrics = getMockMetrics(mock);
+    expect(metricsToBatchData(metrics, "1", "0")).toEqual([
+      {
+        endTime: 1663319378442,
+        startTime: 1663319330342,
+        columns: [],
+      },
+    ]);
+  });
 });
