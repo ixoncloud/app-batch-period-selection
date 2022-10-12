@@ -43,6 +43,12 @@ function determineColumns(
 
   if (!columns.length) {
     const metricBeforeStart = chronologicalMetrics[batchStartIndex - 1];
+
+    if (!metricBeforeStart) {
+      // metricBeforeStart is not available if there are no columns defined
+      return columns;
+    }
+
     const diffLessThanOrEqualTo100 =
       chronologicalMetrics[batchStartIndex].time - metricBeforeStart.time <=
       100;
