@@ -1,13 +1,14 @@
-import { mapMetricInputToQuery } from "../shared/utils";
-import { sortedFindIndex } from "../shared/utils";
-import { DEV_ENV } from "./global";
+import { mapMetricInputToQuery } from "../utils/query";
+import { sortedFindIndex } from "../utils/array";
+
 import type {
   ComponentContext,
   LoggingDataClient,
   LoggingDataMetric,
   LoggingDataQuery,
   LoggingDataValue,
-} from "../shared/types";
+  ComponentContextAggregatedMetricInput,
+} from "@ixon-cdk/types";
 
 const queryLimit = 5000;
 
@@ -15,6 +16,11 @@ export interface TransformedMetrics {
   time: number;
   metrics: { value: LoggingDataValue }[];
 }
+
+export type Metrics = {
+  time: number;
+  metrics: { value: LoggingDataValue }[];
+}[];
 
 export class DataService {
   _context;
@@ -70,14 +76,14 @@ export class DataService {
     if (this._context.inputs.batchTrigger && this._context.inputs.metrics) {
       const queries = [
         this._context.inputs.batchTrigger,
-        ...this._context.inputs.metrics.map((a) => a.column),
-      ].map((metric) => {
+        ...this._context.inputs.metrics.map((a: { column: any }) => a.column),
+      ].map((input) => {
         return {
-          ...mapMetricInputToQuery(metric.metric),
+          ...mapMetricInputToQuery(input.metric),
           offset: this._offset,
           limit: queryLimit,
         };
-      });
+      }) as LoggingDataQuery[];
       this._offset += queryLimit;
       this._activeQueryCancelCallback = this._client.query(
         queries,
@@ -94,12 +100,7 @@ export class DataService {
 
           this._loading = false;
 
-          //loop until no next
-          if (!DEV_ENV) {
-            this.loadNext();
-          } else {
-            this._loadLast();
-          }
+          this.loadNext();
         }
       );
     }
@@ -120,7 +121,7 @@ export class DataService {
 
     const queries = [
       this._context.inputs.batchTrigger,
-      ...this._context.inputs.metrics.map((a) => a.column),
+      ...this._context.inputs.metrics.map((a: { column: any }) => a.column),
     ].map((metric) => ({
       ...mapMetricInputToQuery(metric.metric),
       postAggr: "last",
@@ -129,7 +130,7 @@ export class DataService {
         2 * this._context.timeRange.from - this._context.timeRange.to
       ).toISOString(),
       to: new Date(this._context.timeRange.from).toISOString(),
-    }));
+    })) as LoggingDataQuery[];
 
     this._activeQueryCancelCallback = this._client.query(queries, (metrics) => {
       this._setMetrics(this._transformMetrics(metrics, queries), false);
@@ -196,7 +197,10 @@ export class DataService {
     if (data.length === 0 || newMetrics.time < data[data.length - 1].time) {
       newIndex = data.push(newMetrics) - 1;
     } else {
-      newIndex = sortedFindIndex(data, (v) => newMetrics.time >= v.time);
+      newIndex = sortedFindIndex(
+        data,
+        (v: { time: number }) => newMetrics.time >= v.time
+      );
       if (data[newIndex].time === newMetrics.time) {
         this._mergeData(data[newIndex], newMetrics);
       } else {

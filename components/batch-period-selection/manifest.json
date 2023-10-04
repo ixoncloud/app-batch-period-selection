@@ -1,6 +1,6 @@
 {
-  "main": "ixon-se-batch-selection.min.js",
-  "version": "104",
+  "main": "ixon-se-batch-period-selection.min.js",
+  "version": "107",
   "apiApplication": "KIPhb1ti0JL1",
   "sheetSettings": {
     "defaultCols": 6,

@@ -1,4 +1,5 @@
 import { metricsToBatchData } from "./batch.service";
+import type { Metrics } from "./data.service";
 
 function getMockMetrics(mock: { time: number; metrics: any[] }[]) {
   return mock.map((a) => {
@@ -13,15 +14,17 @@ function getMockMetrics(mock: { time: number; metrics: any[] }[]) {
   });
 }
 
-function createMockFromRealData(data) {
+function createMockFromRealData(data: any[]) {
   return data.map((a) => {
     return {
       time: a.time,
-      metrics: a.metrics.map((x) => {
-        return {
-          value: x.value ? { getValue: () => x.value.rawValue } : null,
-        };
-      }),
+      metrics: a.metrics.map(
+        (x: { value: { getValue: Function; rawValue: any } }) => {
+          return {
+            value: x.value ? { getValue: () => x.value.rawValue } : null,
+          };
+        }
+      ),
     };
   });
 }
@@ -32,13 +35,13 @@ describe("test continues batches", () => {
       { time: 1647529200000, metrics: [0, null] },
       { time: 1647500400000, metrics: [0, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([]);
   });
 
   test("only start trigger detected but no end trigger so no batch is found", () => {
     const mock = [{ time: 1647529200000, metrics: [1, null] }];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([]);
   });
 
@@ -47,7 +50,7 @@ describe("test continues batches", () => {
       { time: 1647529200000, metrics: [1, "Vegetable soup", "Operator 1"] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([
       {
         endTime: 1647529200000,
@@ -63,7 +66,7 @@ describe("test continues batches", () => {
       { time: 1647529200000, metrics: [1, "Vegetable soup", "Operator 1"] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([
       {
         endTime: 1647583200000,
@@ -85,7 +88,7 @@ describe("test continues batches", () => {
       { time: 1647529200000, metrics: [1, "Vegetable soup", "Operator 1"] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([
       {
         endTime: 1647612000000,
@@ -115,7 +118,7 @@ describe("test continues batches", () => {
       { time: 1647500400001, metrics: [null, "Tomato soup", "Operator 1"] },
       { time: 1647500400000, metrics: [1, null, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([
       {
         endTime: 1647612000000,
@@ -140,7 +143,7 @@ describe("test continues batches", () => {
       { time: 1647529200000, metrics: [false, null] },
       { time: 1647500400000, metrics: [true, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "1")).toEqual([]);
   });
 });
@@ -151,7 +154,7 @@ describe("Test irregular batches", () => {
       { time: 1647529200000, metrics: [0, null] },
       { time: 1647500400000, metrics: [0, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([]);
   });
 
@@ -160,7 +163,7 @@ describe("Test irregular batches", () => {
       { time: 1647529200000, metrics: [1, null] },
       { time: 1647500400000, metrics: [1, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([]);
   });
 
@@ -169,7 +172,7 @@ describe("Test irregular batches", () => {
       { time: 1647529200000, metrics: [0, null, null] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1647529200000,
@@ -186,7 +189,7 @@ describe("Test irregular batches", () => {
       { time: 1647529200000, metrics: [0, null, null] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1647612000000,
@@ -210,7 +213,7 @@ describe("Test irregular batches", () => {
       { time: 1647529200000, metrics: [0, null, null] },
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1647619200000,
@@ -263,7 +266,7 @@ describe("Test irregular batches", () => {
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
       { time: 1647500300000, metrics: [0, null, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1647619200000,
@@ -353,7 +356,7 @@ describe("Test irregular batches", () => {
       { time: 1647500400000, metrics: [1, "Tomato soup", "Operator 1"] },
       { time: 1647500300000, metrics: [0, null, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1647619200000,
@@ -423,7 +426,7 @@ describe("Test irregular batches", () => {
       // ignore
       { time: 1647500003000, metrics: [0, null, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
 
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
@@ -469,7 +472,7 @@ describe("Test irregular batches", () => {
       { time: 1647616200002, metrics: [1, null, null] },
       { time: 1647616200001, metrics: [null, null, null] },
     ];
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
 
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
@@ -501,7 +504,7 @@ describe("Test irregular batches", () => {
       { time: 1663319330342, metrics: [1] },
     ];
 
-    const metrics = getMockMetrics(mock);
+    const metrics = getMockMetrics(mock) as Metrics;
     expect(metricsToBatchData(metrics, "1", "0")).toEqual([
       {
         endTime: 1663319378442,

@@ -1,17 +1,26 @@
+import type { Metrics } from "./data.service";
+
+type CleanMetrics = { time: number; batchTrigger: any; columns: any[] }[];
+
+export type ProcessedBatch = {
+  endTime: number;
+  startTime: number;
+  columns: any[];
+};
+
 export function metricsToBatchData(
-  metrics: { time: number; metrics: { value: any }[] }[],
+  metrics: Metrics,
   batchStartValue: string,
   batchEndValue: string
-) {
-  const cleanMetrics: { time: number; batchTrigger: any; columns: any[] }[] =
-    formatMetrics(metrics);
+): ProcessedBatch[] {
+  const cleanMetrics: CleanMetrics = formatMetrics(metrics);
   const chronologicalMetrics = cleanMetrics.slice().reverse();
   return processBatch(chronologicalMetrics, batchStartValue, batchEndValue)
     .slice()
     .reverse();
 }
 
-function formatMetrics(metrics) {
+function formatMetrics(metrics: Metrics) {
   const metricsWithValues = metrics.map((m) => {
     const batchTrigger = m.metrics[0].value
       ? String(m.metrics[0].value.getValue()) // to string
@@ -30,9 +39,9 @@ function formatMetrics(metrics) {
 }
 
 function determineColumns(
-  chronologicalMetrics,
-  batchStartIndex,
-  batchEndIndex
+  chronologicalMetrics: CleanMetrics,
+  batchStartIndex: number,
+  batchEndIndex: number
 ) {
   const columns =
     chronologicalMetrics.slice(batchStartIndex, batchEndIndex).find((m) => {
@@ -63,9 +72,9 @@ function determineColumns(
 
 function processBatch(
   chronologicalMetrics: { time: number; batchTrigger: any; columns: any[] }[],
-  batchStartValue,
-  batchEndValue,
-  batches = []
+  batchStartValue: any,
+  batchEndValue: any,
+  batches: ProcessedBatch[] = []
 ) {
   const batchStartIndex = chronologicalMetrics.findIndex(
     (m) => m.batchTrigger === batchStartValue

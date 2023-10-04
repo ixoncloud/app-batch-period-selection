@@ -8,7 +8,7 @@
  * @param predicate a predicate which returns false for all indices before the one to be found, and true for all indices after (and including) the one to be found
  * @returns the first index of the array for which the predicate is true
  */
-export function sortedFindIndex(array, predicate) {
+export function sortedFindIndex(array: any[], predicate: Function) {
   let s = 0;
   let e = array.length - 1;
 

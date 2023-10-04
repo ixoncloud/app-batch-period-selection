@@ -1,10 +1,10 @@
-import { isNumber } from "lodash";
+import { isNumber } from "lodash-es";
 
-export function metricHasQueryRequirements(metric) {
-  return metric && metric.aggregator && metric.selector;
-}
+import type { ComponentContextAggregatedMetricInput } from "@ixon-cdk/types";
 
-export function mapMetricInputToQuery(metric) {
+export function mapMetricInputToQuery(
+  metric: ComponentContextAggregatedMetricInput
+) {
   return {
     selector: metric.selector,
     ...(metric.aggregator ? { postAggr: metric.aggregator } : {}),
