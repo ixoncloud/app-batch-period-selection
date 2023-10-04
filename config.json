@@ -2,11 +2,11 @@
   "$schema": "./node_modules/@ixon-cdk/core/config/schema.json",
   "prefix": "ixon-se",
   "components": {
-    "batch-selection": {
+    "batch-period-selection": {
       "runner": {
         "build": {
           "builder": "@ixon-cdk/svelte-builder:browser",
-          "input": "batch-selection.svelte"
+          "input": "batch-period-selection.svelte"
         },
         "deploy": {
           "company": "7966-5700-7008-0957-0300",

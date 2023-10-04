@@ -3,30 +3,33 @@
 
   import { DateTime } from "luxon";
 
-  import type { LoggingDataClient } from "./shared/types";
+  import type { ComponentContext, LoggingDataClient } from "@ixon-cdk/types";
 
-  import { DataService } from "./utils/data.service";
-  import { metricsToBatchData } from "./utils/batch.service";
+  import { DataService } from "./services/data.service";
+  import {
+    metricsToBatchData,
+    type ProcessedBatch,
+  } from "./services/batch.service";
 
   let client: LoggingDataClient;
   let dataService: DataService;
-  let columns = [];
-  let metrics = [];
+  let columns: string[] = [];
+  let batches: ProcessedBatch[] = [];
   let tableWidth = 0;
   let batchSelected = false;
-  let batchFrom;
-  let batchTo;
-  let header;
-  let translations;
+  let batchFrom: number | null;
+  let batchTo: number | null;
+  let header: { title?: string; subtitle?: string };
+  let translations: { SEARCH: string };
 
-  let search = undefined;
+  let search: string;
 
-  export let context = undefined;
+  export let context: ComponentContext;
 
   $: isNarrow = tableWidth < 320;
 
   $: visibleBatches = search
-    ? metrics.filter((batch) => {
+    ? batches.filter((batch) => {
         const batchData = [
           ...batch.columns,
           formatDateTime(batch.startTime),
@@ -36,10 +39,11 @@
           x.toLowerCase().includes(search.toLowerCase())
         );
       })
-    : metrics;
+    : batches;
 
-  onMount(() => {
+  onMount(async () => {
     client = context.createLoggingDataClient();
+
     dataService = new DataService(
       context,
       client,
@@ -53,10 +57,12 @@
           metrics: m.metrics,
         }));
 
-        columns = context.inputs.metrics.map((c) => c.column.heading);
+        columns = context.inputs.metrics.map(
+          (c: { column: { heading: string } }) => c.column.heading
+        );
         const batchStart = context.inputs.batchStart;
         const batchEnd = context.inputs.batchEnd;
-        metrics = metricsToBatchData(processedMetrics, batchStart, batchEnd);
+        batches = metricsToBatchData(processedMetrics, batchStart, batchEnd);
       }
     );
     dataService.initializeData();
@@ -69,7 +75,7 @@
             : false;
 
         if (!isZoomingInBatch) {
-          metrics = [];
+          batches = [];
           dataService.reset();
           batchFrom = null;
           batchTo = null;
@@ -82,18 +88,18 @@
     translations = getTranslations();
   });
 
-  function changeTimePeriod(metric) {
-    const from = metric.startTime;
-    const to = metric.endTime;
+  function changeTimePeriod(batch: ProcessedBatch) {
+    const from = batch.startTime;
+    const to = batch.endTime;
     batchSelected = true;
     batchFrom = from;
     batchTo = to;
     context.setTimeRange({ from, to });
-    metrics = [...metrics];
+    batches = [...batches];
   }
 
-  function formatDateTime(date) {
-    return DateTime.fromMillis(date, {
+  function formatDateTime(milliseconds: number) {
+    return DateTime.fromMillis(milliseconds, {
       locale: context.appData.locale,
       zone: context.appData.timeZone,
     }).toLocaleString({
@@ -105,11 +111,11 @@
     return context.translate(["SEARCH"]);
   }
 
-  function getRowStyle(metric: { startTime: number; endTime: number }) {
+  function getRowStyle(batch: ProcessedBatch) {
     const timeRangeInBatch =
       batchFrom && batchTo
-        ? metric.startTime <= context.timeRange.from &&
-          context.timeRange.to <= metric.endTime
+        ? batch.startTime <= context.timeRange.from &&
+          context.timeRange.to <= batch.endTime
         : false;
 
     if (!timeRangeInBatch) {
@@ -188,8 +194,8 @@
 </div>
 
 <style lang="scss">
-  @import "./shared/styles/card";
-  @import "./shared/styles/table";
+  @import "./styles/card";
+  @import "./styles/table";
 
   tr:hover {
     background-color: rgba(0, 0, 0, 0.04) !important;
